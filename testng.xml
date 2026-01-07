@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Restful Booker API Test Suite">
+    <test verbose="2" preserve-order="true" name="Rest_Assured_Practice">
+        <classes>
+            <class name="com.ratultester.testNG.tn02"><methods><exclude name="test1"></exclude></methods> </class>
+            <class name="com.ratultester.testNG.tn01"> </class>
+        </classes>
+    </test>
+</suite>
