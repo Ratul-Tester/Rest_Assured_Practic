@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Rest_Assured_Practice"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="9.402">
+    <properties></properties>
+
+
+
+            <testcase
+                name="getRequest1"
+                time="1.308"
+                classname="com.ratultester.testNG.tn01">
+            </testcase>
+            <testcase
+                name="getRequest"
+                time="8.094"
+                classname="com.ratultester.testNG.tn01">
+            </testcase>
+</testsuite>

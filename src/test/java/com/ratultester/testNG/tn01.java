@@ -1,10 +1,12 @@
 package com.ratultester.testNG;
 
+import io.qameta.allure.Description;
 import io.restassured.RestAssured;
 import org.testng.annotations.Test;
 
 public class tn01 {
 
+    @Description("#TC-1 tn01 getRequest")
     @Test
     public void getRequest(){
         RestAssured
@@ -15,6 +17,7 @@ public class tn01 {
                 .then().statusCode(201);
     }
 
+    @Description("#TC-2 tn01 getRequest1")
     @Test
     public void getRequest1(){
         RestAssured
