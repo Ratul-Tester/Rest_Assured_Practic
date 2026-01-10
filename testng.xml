@@ -3,8 +3,8 @@
 <suite name="Restful Booker API Test Suite">
     <test verbose="2" preserve-order="true" name="Rest_Assured_Practice">
         <classes>
-            <class name="com.ratultester.testNG.tn02"><methods><exclude name="test1"></exclude></methods> </class>
-            <class name="com.ratultester.testNG.tn01"> </class>
+            <class name="com.ratultester.testNG.tn02"><methods><include name="test1"></include></methods> </class>
+            <class name="com.ratultester.testNG.tn01"><methods><exclude name="getRequest1"></exclude></methods> </class>
         </classes>
     </test>
 </suite>

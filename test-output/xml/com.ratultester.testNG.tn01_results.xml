@@ -4,19 +4,19 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="3.928">
+           time="3.858">
     <properties></properties>
 
 
 
             <testcase
-                name="getRequest1"
-                time="1.222"
+                name="getRequest2"
+                time="1.229"
                 classname="com.ratultester.testNG.tn01">
             </testcase>
             <testcase
                 name="getRequest"
-                time="2.706"
+                time="2.629"
                 classname="com.ratultester.testNG.tn01">
             </testcase>
 </testsuite>

@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="Rest_Assured_Practice"
-           tests="2"
+           tests="1"
            failures="0"
            errors="0"
            skipped="0"
-           time="0.040">
+           time="0.036">
     <properties></properties>
 
 
 
             <testcase
-                name="test2"
-                time="0.038"
-                classname="com.ratultester.testNG.tn02">
-            </testcase>
-            <testcase
-                name="test3"
-                time="0.002"
+                name="test1"
+                time="0.036"
                 classname="com.ratultester.testNG.tn02">
             </testcase>
 </testsuite>

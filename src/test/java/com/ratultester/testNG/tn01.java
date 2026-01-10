@@ -28,4 +28,15 @@ public class tn01 {
                 .then().statusCode(201);
     }
 
+    @Description("#TC-3 tn01 getRequest2")
+    @Test
+    public void getRequest2(){
+        RestAssured
+                .given()
+                .baseUri("https://restful-booker.herokuapp.com")
+                .basePath("/ping")
+                .when().get()
+                .then().statusCode(201);
+    }
+
 }
