@@ -17,6 +17,7 @@ public class tn03 {
     public void asserHS(){
         Assert.assertEquals("Ratul","Ratul","Not Equal");
         Assert.assertEquals("Batul","Batul","Not Equal");
+        Assert.assertEquals("Patul","Patul","Not Equal");
         System.out.println("End of the Hard Assert Program");
     }
 }
