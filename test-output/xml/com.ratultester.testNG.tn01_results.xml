@@ -1,22 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Rest_Assured_Practice"
-           tests="2"
+<testsuite name="C:/Users/BIOTECH/Rest_Assured_Practic"
+           tests="3"
            failures="0"
            errors="0"
            skipped="0"
-           time="3.858">
+           time="5.481">
     <properties></properties>
 
 
 
             <testcase
                 name="getRequest2"
-                time="1.229"
+                time="1.288"
+                classname="com.ratultester.testNG.tn01">
+            </testcase>
+            <testcase
+                name="getRequest1"
+                time="1.341"
                 classname="com.ratultester.testNG.tn01">
             </testcase>
             <testcase
                 name="getRequest"
-                time="2.629"
+                time="2.852"
                 classname="com.ratultester.testNG.tn01">
             </testcase>
 </testsuite>

@@ -1,10 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Restful Booker API Test Suite">
-    <test verbose="2" preserve-order="true" name="Rest_Assured_Practice">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/BIOTECH/Rest_Assured_Practic">
         <classes>
-            <class name="com.ratultester.testNG.tn02"><methods><include name="test1"></include></methods> </class>
-            <class name="com.ratultester.testNG.tn01"><methods><exclude name="getRequest1"></exclude></methods> </class>
+            <class name="com.ratultester.restassured01.ra02">
+                <methods>
+                    <include name="demo5"/>
+                </methods>
+            </class>
+            <class name="com.ratultester.testNG.tn01">
+                <methods>
+                    <include name="getRequest"/>
+                    <include name="getRequest1"/>
+                    <include name="getRequest2"/>
+                </methods>
+            </class>
+            <class name="com.ratultester.testNG.tn02">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                </methods>
+            </class>
+            <class name="com.ratultester.testNG.tn03">
+                <methods>
+                    <include name="asserSH"/>
+                    <include name="asserHS"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>
