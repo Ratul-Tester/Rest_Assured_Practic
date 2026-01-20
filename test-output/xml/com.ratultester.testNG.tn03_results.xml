@@ -4,19 +4,19 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="0.006">
+           time="0.012">
     <properties></properties>
 
 
 
             <testcase
-                name="asserHS"
-                time="0.001"
+                name="asserSH"
+                time="0.011"
                 classname="com.ratultester.testNG.tn03">
             </testcase>
             <testcase
-                name="asserSH"
-                time="0.005"
+                name="asserHS"
+                time="0.001"
                 classname="com.ratultester.testNG.tn03">
             </testcase>
 </testsuite>

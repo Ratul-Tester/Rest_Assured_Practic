@@ -4,7 +4,7 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="0.006">
+           time="0.005">
     <properties></properties>
 
 
@@ -21,7 +21,7 @@
             </testcase>
             <testcase
                 name="test3"
-                time="0.002"
+                time="0.001"
                 classname="com.ratultester.testNG.tn02">
             </testcase>
 </testsuite>

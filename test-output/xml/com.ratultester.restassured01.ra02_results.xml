@@ -4,14 +4,14 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="0.031">
+           time="0.053">
     <properties></properties>
 
 
 
             <testcase
                 name="demo5"
-                time="0.031"
+                time="0.053"
                 classname="com.ratultester.restassured01.ra02">
             </testcase>
 </testsuite>
